@@ -2,15 +2,17 @@
 clc;
 close all;
 clear;
-img = imread('image.jpg');
 
-% img_optimizated = ehancement(image,D1,D2,l,h);
-img_optimizated = ehancement(img,10,20,0.1,0.9);
+img = imread('original image.jpg');
+
+img_equal =equalizing(img);
+
+img_optimizated = ehancement(img_equal,D1,D2,l,h);
 
 figure(1);
 imshow(img, []);
-title('Ô­Í¼Ïñ');
+title('original image');
 
 figure(2);
 imshow(img_optimizated, []);
-title('ÔöÇ¿Í¼Ïñ');
+title('optimization image');
