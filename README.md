@@ -2,7 +2,7 @@
 
 Description
 
-A demo for our paper: A Spatial-Frequency Domain Associated Image-Optimization Method for Illumination-Robust Image Matching, 2020.
+A demo for our paper: Liu, C.; Jia, S.; Wu, H.; Zeng, D.; Cheng, F.; Zhang, S. A Spatial-Frequency Domain Associated Image-Optimization Method for Illumination-Robust Image Matching. Sensors 2020, 20, 6489. 
 A spatial-frequency domain associated image-optimization method is particularly designed for improving image matching under extreme and changing illumination conditions without over-enhancement and destructionof naturalness. Moreover, the algorithm could be applied in practical applications, such as SFM and MVS. Note that the values of parameters (d1, d2, l, h) in the algorithm vary with scenarios due to different properties of scenarios and external environment. It may affect the effectiveness of our algorithm. The details of parameter setting are depicted in our paper. 
 
 
